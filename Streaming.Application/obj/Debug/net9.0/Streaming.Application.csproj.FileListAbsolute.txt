@@ -1,0 +1,16 @@
+/home/coders/Imágenes/PaginaStreaming/Streaming.Application/bin/Debug/net9.0/Streaming.Application.deps.json
+/home/coders/Imágenes/PaginaStreaming/Streaming.Application/bin/Debug/net9.0/Streaming.Application.dll
+/home/coders/Imágenes/PaginaStreaming/Streaming.Application/bin/Debug/net9.0/Streaming.Application.pdb
+/home/coders/Imágenes/PaginaStreaming/Streaming.Application/bin/Debug/net9.0/Streaming.Domain.dll
+/home/coders/Imágenes/PaginaStreaming/Streaming.Application/bin/Debug/net9.0/Streaming.Domain.pdb
+/home/coders/Imágenes/PaginaStreaming/Streaming.Application/obj/Debug/net9.0/Streaming.Application.csproj.AssemblyReference.cache
+/home/coders/Imágenes/PaginaStreaming/Streaming.Application/obj/Debug/net9.0/Streaming.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/coders/Imágenes/PaginaStreaming/Streaming.Application/obj/Debug/net9.0/Streaming.Application.AssemblyInfoInputs.cache
+/home/coders/Imágenes/PaginaStreaming/Streaming.Application/obj/Debug/net9.0/Streaming.Application.AssemblyInfo.cs
+/home/coders/Imágenes/PaginaStreaming/Streaming.Application/obj/Debug/net9.0/Streaming.Application.csproj.CoreCompileInputs.cache
+/home/coders/Imágenes/PaginaStreaming/Streaming.Application/obj/Debug/net9.0/Streaming.Application.sourcelink.json
+/home/coders/Imágenes/PaginaStreaming/Streaming.Application/obj/Debug/net9.0/Streamin.8C9C8BB7.Up2Date
+/home/coders/Imágenes/PaginaStreaming/Streaming.Application/obj/Debug/net9.0/Streaming.Application.dll
+/home/coders/Imágenes/PaginaStreaming/Streaming.Application/obj/Debug/net9.0/refint/Streaming.Application.dll
+/home/coders/Imágenes/PaginaStreaming/Streaming.Application/obj/Debug/net9.0/Streaming.Application.pdb
+/home/coders/Imágenes/PaginaStreaming/Streaming.Application/obj/Debug/net9.0/ref/Streaming.Application.dll

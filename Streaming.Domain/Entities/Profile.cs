@@ -9,7 +9,7 @@ public class Profile
     
     public string Name { get; set; } = string.Empty;
     public bool IsKids { get; set; }
-    public string? Lenguaje { get; set; }
+    public string? Language { get; set; }
     public string? AvatarUrl { get; set; }
     
     public ICollection<WatchHistory> WatchHistories { get; set; } = new List<WatchHistory>();

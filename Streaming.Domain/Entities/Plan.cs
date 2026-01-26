@@ -9,5 +9,5 @@ public class Plan
     public string MaxResolution { get; set; } = String.Empty;
     public string? Description { get; set; } = String.Empty;
     
-    public ICollection<Suscription> Suscriptions { get; set; } = new HashSet<Suscription>();
+    public ICollection<Subscription> Subscriptions { get; set; } = new HashSet<Subscription>();
 }

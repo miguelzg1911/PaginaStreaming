@@ -8,11 +8,10 @@ public class Content
     public string Title { get; set; } = string.Empty;
     public string? Description { get; set; } = string.Empty;
     public int ReleaseYear { get; set; }
-    public int DuracionMinutes { get; set; }
+    public int DurationMinutes { get; set; }
     public ContentType ContentType { get; set; }
     public AgeRating AgeRating { get; set; }
     
     public ICollection<Season> Seasons { get; set; } = new List<Season>();
-    public ICollection<Genre> Genres { get; set; } = new List<Genre>();
     public ICollection<ContentGenre> ContentGenres { get; set; } = new List<ContentGenre>();
 }

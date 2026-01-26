@@ -12,5 +12,5 @@ public class User
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     
     public ICollection<Profile> Profiles { get; set; } = new List<Profile>();
-    public ICollection<Suscription> Suscriptions { get; set; } = new List<Suscription>();
+    public ICollection<Subscription> Subscriptions { get; set; } = new List<Subscription>();
 }

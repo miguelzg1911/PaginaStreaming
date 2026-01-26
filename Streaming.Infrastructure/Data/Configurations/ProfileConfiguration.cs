@@ -12,6 +12,9 @@ public class ProfileConfiguration : IEntityTypeConfiguration<Profile>
         
         builder.HasKey(p => p.Id);
         
+        builder.Property(p => p.Language)
+            .HasColumnName("language");
+        
         builder.HasOne(p => p.User)
             .WithMany(u => u.Profiles)
             .HasForeignKey(p => p.UserId);
