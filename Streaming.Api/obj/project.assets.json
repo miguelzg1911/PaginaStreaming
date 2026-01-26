@@ -2919,11 +2919,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/coders/PaginaStreaming/Streaming.Api/Streaming.Api.csproj",
+      "projectUniqueName": "/home/coders/Imágenes/PaginaStreaming/Streaming.Api/Streaming.Api.csproj",
       "projectName": "Streaming.Api",
-      "projectPath": "/home/coders/PaginaStreaming/Streaming.Api/Streaming.Api.csproj",
+      "projectPath": "/home/coders/Imágenes/PaginaStreaming/Streaming.Api/Streaming.Api.csproj",
       "packagesPath": "/home/coders/.nuget/packages/",
-      "outputPath": "/home/coders/PaginaStreaming/Streaming.Api/obj/",
+      "outputPath": "/home/coders/Imágenes/PaginaStreaming/Streaming.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/coders/.nuget/NuGet/NuGet.Config"
@@ -2932,18 +2932,17 @@
         "net9.0"
       ],
       "sources": {
-        "/usr/lib/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/home/coders/PaginaStreaming/Streaming.Application/Streaming.Application.csproj": {
-              "projectPath": "/home/coders/PaginaStreaming/Streaming.Application/Streaming.Application.csproj"
+            "/home/coders/Imágenes/PaginaStreaming/Streaming.Application/Streaming.Application.csproj": {
+              "projectPath": "/home/coders/Imágenes/PaginaStreaming/Streaming.Application/Streaming.Application.csproj"
             },
-            "/home/coders/PaginaStreaming/Streaming.Infrastructure/Streaming.Infrastructure.csproj": {
-              "projectPath": "/home/coders/PaginaStreaming/Streaming.Infrastructure/Streaming.Infrastructure.csproj"
+            "/home/coders/Imágenes/PaginaStreaming/Streaming.Infrastructure/Streaming.Infrastructure.csproj": {
+              "projectPath": "/home/coders/Imágenes/PaginaStreaming/Streaming.Infrastructure/Streaming.Infrastructure.csproj"
             }
           }
         }
@@ -2958,7 +2957,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -3002,7 +3001,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.112/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/coders/.dotnet/sdk/9.0.309/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

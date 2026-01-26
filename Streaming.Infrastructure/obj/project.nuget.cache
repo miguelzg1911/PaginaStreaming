@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jjvjiQTC/Ic=",
+  "dgSpecHash": "A56iY3CMrcg=",
   "success": true,
-  "projectFilePath": "/home/coders/PaginaStreaming/Streaming.Infrastructure/Streaming.Infrastructure.csproj",
+  "projectFilePath": "/home/coders/Imágenes/PaginaStreaming/Streaming.Infrastructure/Streaming.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/home/coders/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/coders/.nuget/packages/microsoft.bcl.asyncinterfaces/7.0.0/microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

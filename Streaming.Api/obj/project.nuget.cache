@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ns46hC4fJdk=",
+  "dgSpecHash": "mIx9BiAn+jc=",
   "success": true,
-  "projectFilePath": "/home/coders/PaginaStreaming/Streaming.Api/Streaming.Api.csproj",
+  "projectFilePath": "/home/coders/Imágenes/PaginaStreaming/Streaming.Api/Streaming.Api.csproj",
   "expectedPackageFiles": [
     "/home/coders/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/coders/.nuget/packages/microsoft.aspnetcore.openapi/9.0.11/microsoft.aspnetcore.openapi.9.0.11.nupkg.sha512",
