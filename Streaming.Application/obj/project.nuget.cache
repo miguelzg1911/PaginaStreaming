@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "VrYwoKEwGhU=",
+  "dgSpecHash": "BRuZioPNfyE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Application\\Streaming.Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/coders/Imágenes/PaginaStreaming/Streaming.Application/Streaming.Application.csproj",
+  "expectedPackageFiles": [
+    "/home/coders/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

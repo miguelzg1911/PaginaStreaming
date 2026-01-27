@@ -12,6 +12,9 @@ public class Content
     public ContentType ContentType { get; set; }
     public AgeRating AgeRating { get; set; }
     
+    public string? ThumbnailUrl { get; set; }
+    public string? UrlVideo { get; set; }
+    
     public ICollection<Season> Seasons { get; set; } = new List<Season>();
     public ICollection<ContentGenre> ContentGenres { get; set; } = new List<ContentGenre>();
 }

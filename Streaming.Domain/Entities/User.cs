@@ -10,7 +10,11 @@ public class User
     public string PasswordHash { get; set; } = string.Empty;
     public UserRole Role { get; set; }
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+    public bool IsActive { get; set; } = true;
     
     public ICollection<Profile> Profiles { get; set; } = new List<Profile>();
     public ICollection<Subscription> Subscriptions { get; set; } = new List<Subscription>();
+    
+    public string? RefreshToken { get; set; }
+    public DateTime? RefreshTokenExpiryTime { get; set; }
 }
