@@ -16,3 +16,21 @@
 /home/coders/Imágenes/PaginaStreaming/Streaming.Infrastructure/obj/Debug/net9.0/Streaming.Infrastructure.pdb
 /home/coders/Imágenes/PaginaStreaming/Streaming.Infrastructure/obj/Debug/net9.0/Streaming.Infrastructure.genruntimeconfig.cache
 /home/coders/Imágenes/PaginaStreaming/Streaming.Infrastructure/obj/Debug/net9.0/ref/Streaming.Infrastructure.dll
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Infrastructure\bin\Debug\net9.0\Streaming.Infrastructure.deps.json
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Infrastructure\bin\Debug\net9.0\Streaming.Infrastructure.runtimeconfig.json
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Infrastructure\bin\Debug\net9.0\Streaming.Infrastructure.dll
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Infrastructure\bin\Debug\net9.0\Streaming.Infrastructure.pdb
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Infrastructure\bin\Debug\net9.0\Streaming.Domain.dll
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Infrastructure\bin\Debug\net9.0\Streaming.Domain.pdb
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Infrastructure\obj\Debug\net9.0\Streaming.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Infrastructure\obj\Debug\net9.0\Streaming.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Infrastructure\obj\Debug\net9.0\Streaming.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Infrastructure\obj\Debug\net9.0\Streaming.Infrastructure.AssemblyInfo.cs
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Infrastructure\obj\Debug\net9.0\Streaming.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Infrastructure\obj\Debug\net9.0\Streaming.Infrastructure.sourcelink.json
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Infrastructure\obj\Debug\net9.0\Streamin.73927F55.Up2Date
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Infrastructure\obj\Debug\net9.0\Streaming.Infrastructure.dll
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Infrastructure\obj\Debug\net9.0\refint\Streaming.Infrastructure.dll
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Infrastructure\obj\Debug\net9.0\Streaming.Infrastructure.pdb
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Infrastructure\obj\Debug\net9.0\Streaming.Infrastructure.genruntimeconfig.cache
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Infrastructure\obj\Debug\net9.0\ref\Streaming.Infrastructure.dll
