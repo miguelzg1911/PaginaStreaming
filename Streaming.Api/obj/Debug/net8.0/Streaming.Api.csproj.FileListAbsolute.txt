@@ -1,0 +1,8 @@
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Api\obj\Debug\net8.0\Streaming.Api.csproj.AssemblyReference.cache
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Api\obj\Debug\net8.0\Streaming.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Api\obj\Debug\net8.0\Streaming.Api.AssemblyInfoInputs.cache
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Api\obj\Debug\net8.0\Streaming.Api.AssemblyInfo.cs
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Api\obj\Debug\net8.0\Streaming.Api.csproj.CoreCompileInputs.cache
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Api\obj\Debug\net8.0\Streaming.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Api\obj\Debug\net8.0\Streaming.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Api\obj\Debug\net8.0\Streaming.Api.sourcelink.json
