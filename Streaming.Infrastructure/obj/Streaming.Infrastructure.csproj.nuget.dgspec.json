@@ -1,31 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/coders/Imágenes/PaginaStreaming/Streaming.Infrastructure/Streaming.Infrastructure.csproj": {}
+    "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Infrastructure\\Streaming.Infrastructure.csproj": {}
   },
   "projects": {
-    "/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/Streaming.Domain.csproj": {
+    "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Domain\\Streaming.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/Streaming.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Domain\\Streaming.Domain.csproj",
         "projectName": "Streaming.Domain",
-        "projectPath": "/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/Streaming.Domain.csproj",
-        "packagesPath": "/home/coders/.nuget/packages/",
-        "outputPath": "/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/obj/",
+        "projectPath": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Domain\\Streaming.Domain.csproj",
+        "packagesPath": "C:\\Users\\Daniela o cualquiera\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/coders/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Daniela o cualquiera\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
-          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -39,11 +38,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -55,40 +54,53 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.112/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Daniela o cualquiera\\.dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/coders/Imágenes/PaginaStreaming/Streaming.Infrastructure/Streaming.Infrastructure.csproj": {
+    "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Infrastructure\\Streaming.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/coders/Imágenes/PaginaStreaming/Streaming.Infrastructure/Streaming.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Infrastructure\\Streaming.Infrastructure.csproj",
         "projectName": "Streaming.Infrastructure",
-        "projectPath": "/home/coders/Imágenes/PaginaStreaming/Streaming.Infrastructure/Streaming.Infrastructure.csproj",
-        "packagesPath": "/home/coders/.nuget/packages/",
-        "outputPath": "/home/coders/Imágenes/PaginaStreaming/Streaming.Infrastructure/obj/",
+        "projectPath": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Infrastructure\\Streaming.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Daniela o cualquiera\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/coders/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Daniela o cualquiera\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
-          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/Streaming.Domain.csproj": {
-                "projectPath": "/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/Streaming.Domain.csproj"
+              "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Domain\\Streaming.Domain.csproj": {
+                "projectPath": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Domain\\Streaming.Domain.csproj"
               }
             }
           }
@@ -103,25 +115,25 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.9, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.9, )"
+              "version": "[8.0.0, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -135,12 +147,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.112/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Daniela o cualquiera\\.dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

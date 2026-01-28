@@ -10,4 +10,6 @@ public class Episode
     public string Title { get; set; } = String.Empty;
     public int EpisodeNumber { get; set; }
     public int DurationMinutes { get; set; }
+    
+    public string? UrlVideo { get; set; }
 }

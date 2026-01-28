@@ -1,6 +1,8 @@
-﻿namespace Streaming.Application.Interfaces;
+﻿using Microsoft.AspNetCore.Http;
 
-public class IImagesService
+namespace Practica.Application.Interfaces;
+
+public interface IImagesService
 {
-    
+    Task<string> UploadPhotoAsync(IFormFile file);
 }

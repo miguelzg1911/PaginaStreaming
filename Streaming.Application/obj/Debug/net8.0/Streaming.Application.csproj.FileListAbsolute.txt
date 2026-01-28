@@ -1,0 +1,16 @@
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Application\bin\Debug\net8.0\Streaming.Application.deps.json
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Application\bin\Debug\net8.0\Streaming.Application.dll
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Application\bin\Debug\net8.0\Streaming.Application.pdb
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Application\bin\Debug\net8.0\Streaming.Domain.dll
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Application\bin\Debug\net8.0\Streaming.Domain.pdb
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Application\obj\Debug\net8.0\Streaming.Application.csproj.AssemblyReference.cache
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Application\obj\Debug\net8.0\Streaming.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Application\obj\Debug\net8.0\Streaming.Application.AssemblyInfoInputs.cache
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Application\obj\Debug\net8.0\Streaming.Application.AssemblyInfo.cs
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Application\obj\Debug\net8.0\Streaming.Application.csproj.CoreCompileInputs.cache
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Application\obj\Debug\net8.0\Streaming.Application.sourcelink.json
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Application\obj\Debug\net8.0\Streamin.8C9C8BB7.Up2Date
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Application\obj\Debug\net8.0\Streaming.Application.dll
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Application\obj\Debug\net8.0\refint\Streaming.Application.dll
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Application\obj\Debug\net8.0\Streaming.Application.pdb
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Application\obj\Debug\net8.0\ref\Streaming.Application.dll

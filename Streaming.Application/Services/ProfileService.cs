@@ -13,16 +13,16 @@ public class ProfileService : IProfileService
     {
         _unitOfWork = unitOfWork;
     }
-    
+
     public async Task<IEnumerable<ProfileDto>> GetProfilesByUserIdAsync(Guid userId)
     {
         var profiles = await _unitOfWork.Profiles.FindAsync(p => p.UserId == userId);
-
+        
         return profiles.Select(p => new ProfileDto
         {
             Id = p.Id,
             Name = p.Name,
-            IdKids = p.IsKids,
+            IsKids = p.IsKids,
             AvatarUrl = p.AvatarUrl
         });
     }
@@ -38,7 +38,7 @@ public class ProfileService : IProfileService
             Language = request.Language ?? "es",
             AvatarUrl = "default-avatar.png"
         };
-        
+
         await _unitOfWork.Profiles.AddAsync(profile);
         await _unitOfWork.SaveChangesAsync();
 

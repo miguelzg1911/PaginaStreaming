@@ -34,6 +34,18 @@ public class AuthService : IAuthService
         };
         
         await _unitOfWork.Users.AddAsync(user);
+        
+        var subscription = new Subscription
+        {
+            Id = Guid.NewGuid(),
+            UserId = user.Id,
+            PlanId = request.PlanId,
+            StartDate = DateTime.UtcNow,
+            EndDate = DateTime.UtcNow.AddMonths(1),
+            IsActive = true
+        };
+        await _unitOfWork.Subscriptions.AddAsync(subscription);
+        
         await _unitOfWork.SaveChangesAsync();
         return await GenerateAuthResponse(user);
     }
