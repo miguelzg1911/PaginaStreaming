@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Daniela o cualquiera\\.nuget\\packages\\": {}
+    "/home/coders/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Domain\\Streaming.Domain.csproj",
+      "projectUniqueName": "/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/Streaming.Domain.csproj",
       "projectName": "Streaming.Domain",
-      "projectPath": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Domain\\Streaming.Domain.csproj",
-      "packagesPath": "C:\\Users\\Daniela o cualquiera\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Domain\\obj\\",
+      "projectPath": "/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/Streaming.Domain.csproj",
+      "packagesPath": "/home/coders/.nuget/packages/",
+      "outputPath": "/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Daniela o cualquiera\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/coders/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -68,10 +68,6 @@
           {
             "name": "Microsoft.NETCore.App.Ref",
             "version": "[8.0.23, 8.0.23]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.23, 8.0.23]"
           }
         ],
         "frameworkReferences": {
@@ -79,7 +75,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Daniela o cualquiera\\.dotnet\\sdk\\9.0.309/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/coders/.dotnet/sdk/9.0.309/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

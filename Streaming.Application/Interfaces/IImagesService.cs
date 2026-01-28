@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 
-namespace Practica.Application.Interfaces;
+namespace Streaming.Application.Interfaces;
 
 public interface IImagesService
 {

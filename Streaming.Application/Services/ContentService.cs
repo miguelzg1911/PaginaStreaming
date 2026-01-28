@@ -30,49 +30,36 @@ public class ContentService : IContentService
 
     public async Task<ContentDetailsDto?> GetDetailsAsync(Guid id)
     {
-        // Buscamos el contenido base
-        var content = await _unitOfWork.Contents.GetByIdAsync(id);
+        var content = await _unitOfWork.Contents.GetContentDetailsAsync(id);
         if (content == null) return null;
 
-        // Mapeamos los datos básicos
         var details = new ContentDetailsDto
         {
             Id = content.Id,
             Title = content.Title,
             Description = content.Description,
-            UrlVideo = content.UrlVideo, // Si es película, este es el link principal
+            UrlVideo = content.UrlVideo,
             DurationMinutes = content.DurationMinutes,
             ContentType = content.ContentType.ToString(),
-            Seasons = new List<SeasonDto>(),
-            
             Genres = content.ContentGenres.Select(cg => cg.Genre.Name).ToList(),
+            Seasons = new List<SeasonDto>()
         };
 
-        // Si es una serie, cargamos la estructura completa
         if (content.ContentType == Domain.Enums.ContentType.Series)
         {
-            // Buscamos las temporadas que pertenezcan a este contenido
-            var seasons = await _unitOfWork.Seasons.FindAsync(s => s.ContentId == id);
-        
-            foreach (var season in seasons.OrderBy(s => s.SeasonNumber))
+            details.Seasons = content.Seasons.OrderBy(s => s.SeasonNumber).Select(s => new SeasonDto
             {
-                // Buscamos los episodios de cada temporada
-                var episodes = await _unitOfWork.Episodes.FindAsync(e => e.SeasonId == season.Id);
-            
-                details.Seasons.Add(new SeasonDto
+                Id = s.Id,
+                SeasonNumber = s.SeasonNumber,
+                Episodes = s.Episodes.OrderBy(e => e.EpisodeNumber).Select(e => new EpisodeDto
                 {
-                    Id = season.Id,
-                    SeasonNumber = season.SeasonNumber,
-                    Episodes = episodes.OrderBy(e => e.EpisodeNumber).Select(e => new EpisodeDto
-                    {
-                        Id = e.Id,
-                        Title = e.Title,
-                        EpisodeNumber = e.EpisodeNumber,
-                        DurationMinutes = e.DurationMinutes,
-                        UrlVideo = e.UrlVideo
-                    }).ToList()
-                });
-            }
+                    Id = e.Id,
+                    Title = e.Title,
+                    EpisodeNumber = e.EpisodeNumber,
+                    DurationMinutes = e.DurationMinutes,
+                    UrlVideo = e.UrlVideo
+                }).ToList()
+            }).ToList();
         }
 
         return details;

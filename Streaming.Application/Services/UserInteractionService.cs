@@ -45,15 +45,14 @@ public class UserInteractionService : IUserInteractionService
 
     public async Task<IEnumerable<WatchHistoryDto>> GetWatchHistoryAsync(Guid profileId)
     {
-        // Aquí podrías necesitar un método específico en el repositorio para traer el Título del contenido
-        var history = await _unitOfWork.WatchHistories.FindAsync(h => h.ProfileId == profileId);
-        
+        var history = await _unitOfWork.WatchHistories.GetByProfileIdAsync(profileId);
+    
         return history.Select(h => new WatchHistoryDto
         {
             ContentId = h.ContentId,
+            ContentTitle = h.Content.Title,
             WatchedSeconds = h.WatchedSeconds,
             LastWatchedAt = h.LastWatchedAt
-            // ContentTitle se llenaría si haces un Include en el repositorio
         });
     }
 
@@ -65,12 +64,10 @@ public class UserInteractionService : IUserInteractionService
 
         if (existingItem != null)
         {
-            // Si existe, lo borramos (Toggle Off)
             _unitOfWork.MyLists.Delete(existingItem);
         }
         else
         {
-            // Si no existe, lo agregamos (Toggle On)
             var newItem = new MyList
             {
                 ProfileId = profileId,
@@ -85,19 +82,16 @@ public class UserInteractionService : IUserInteractionService
 
     public async Task SetRatingAsync(Guid profileId, RatingRequest request)
     {
-        // Buscamos si el perfil ya calificó este contenido anteriormente
         var existingRating = (await _unitOfWork.Ratings.FindAsync(r => 
             r.ProfileId == profileId && r.ContentId == request.ContentId)).FirstOrDefault();
 
         if (existingRating != null)
         {
-            // Si ya existe, actualizamos el valor (Like/Dislike)
             existingRating.Value = request.Value;
             _unitOfWork.Ratings.Update(existingRating);
         }
         else
         {
-            // Si es nuevo, creamos el registro
             var newRating = new Rating
             {
                 Id = Guid.NewGuid(),

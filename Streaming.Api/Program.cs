@@ -7,6 +7,7 @@ using Streaming.Application.Services;
 using Streaming.Domain.Interfaces;
 using Streaming.Infrastructure.Data;
 using Streaming.Infrastructure.Repositories;
+using Streaming.Infrastructure.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -69,6 +70,7 @@ builder.Services.AddScoped<IContentService, ContentService>();
 builder.Services.AddScoped<IProfileService, ProfileService>();
 builder.Services.AddScoped<ISubscriptionService, SubscriptionService>();
 builder.Services.AddScoped<IUserInteractionService, UserInteractionService>();
+builder.Services.AddScoped<IImagesService, ImagesService>();
 
 
 // JWT
@@ -104,5 +106,14 @@ app.UseAuthorization();
 
 app.UseHttpsRedirection();
 app.MapControllers();
+
+
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var context = services.GetRequiredService<AppDbContext>();
+    await DbSeeder.SeedAsync(context);
+}
+
 app.Run();
 
