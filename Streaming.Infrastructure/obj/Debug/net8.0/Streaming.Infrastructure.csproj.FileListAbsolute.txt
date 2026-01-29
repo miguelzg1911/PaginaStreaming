@@ -2,7 +2,9 @@ C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streami
 C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Infrastructure\bin\Debug\net8.0\Streaming.Infrastructure.runtimeconfig.json
 C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Infrastructure\bin\Debug\net8.0\Streaming.Infrastructure.dll
 C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Infrastructure\bin\Debug\net8.0\Streaming.Infrastructure.pdb
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Infrastructure\bin\Debug\net8.0\Streaming.Application.dll
 C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Infrastructure\bin\Debug\net8.0\Streaming.Domain.dll
+C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Infrastructure\bin\Debug\net8.0\Streaming.Application.pdb
 C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Infrastructure\bin\Debug\net8.0\Streaming.Domain.pdb
 C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Infrastructure\obj\Debug\net8.0\Streaming.Infrastructure.csproj.AssemblyReference.cache
 C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Infrastructure\obj\Debug\net8.0\Streaming.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig

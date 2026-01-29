@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ba7xUCppIRs=",
+  "dgSpecHash": "ElCMDHff+3c=",
   "success": true,
-  "projectFilePath": "/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/Streaming.Domain.csproj",
-  "expectedPackageFiles": [
-    "/home/coders/.nuget/packages/microsoft.netcore.app.ref/8.0.23/microsoft.netcore.app.ref.8.0.23.nupkg.sha512",
-    "/home/coders/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.23/microsoft.aspnetcore.app.ref.8.0.23.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Domain\\Streaming.Domain.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
