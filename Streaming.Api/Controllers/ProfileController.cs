@@ -37,14 +37,16 @@ public class ProfileController : ControllerBase
     [HttpPut("{id}")]
     public async Task<IActionResult> UpdateProfile(Guid id, [FromBody] UpdateProfileRequest request)
     {
-        await _profileService.UpdateProfileAsync(id, request);
+        var userId = Guid.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
+        await _profileService.UpdateProfileAsync(id, userId, request);
         return NoContent();
     }
 
     [HttpDelete("{id}")]
     public async Task<IActionResult> DeleteProfile(Guid id)
     {
-        await _profileService.DeleteProfileAsync(id);
+        var userId = Guid.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
+        await _profileService.DeleteProfileAsync(id, userId);
         return NoContent();
     }
 }

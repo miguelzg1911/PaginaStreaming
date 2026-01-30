@@ -19,7 +19,9 @@ public class ContentService : IContentService
     {
         var contentList = await _unitOfWork.Contents.GetAllAsync();
 
-        return contentList.Select(c => new ContentSummaryDto
+        return contentList
+            .OrderByDescending(c => c.ReleaseYear)
+            .Select(c => new ContentSummaryDto
         {
             Id = c.Id,
             Title = c.Title,

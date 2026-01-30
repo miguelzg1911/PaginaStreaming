@@ -55,10 +55,12 @@ public class ProfileService : IProfileService
         return new ProfileDto { Id = profile.Id, Name = profile.Name, IsKids = profile.IsKids, AvatarUrl = profile.AvatarUrl };
     }
 
-    public async Task UpdateProfileAsync(Guid profileId, UpdateProfileRequest request)
+    public async Task UpdateProfileAsync(Guid profileId, Guid userId, UpdateProfileRequest request)
     {
         var profile = await _unitOfWork.Profiles.GetByIdAsync(profileId);
-        if (profile == null) throw new Exception("Perfil no encontrado");
+        
+        if (profile == null || profile.UserId != userId) 
+            throw new Exception("Perfil no encontrado o no tienes permiso para editarlo.");
 
         profile.Name = request.Name;
         profile.IsKids = request.IsKids;
@@ -68,10 +70,12 @@ public class ProfileService : IProfileService
         await _unitOfWork.SaveChangesAsync();
     }
 
-    public async Task DeleteProfileAsync(Guid profileId)
+    public async Task DeleteProfileAsync(Guid profileId, Guid userId)
     {
         var profile = await _unitOfWork.Profiles.GetByIdAsync(profileId);
-        if (profile == null) throw new Exception("Perfil no encontrado");
+        
+        if (profile == null || profile.UserId != userId) 
+            throw new Exception("Perfil no encontrado o no tienes permiso.");
 
         _unitOfWork.Profiles.Delete(profile);
         await _unitOfWork.SaveChangesAsync();

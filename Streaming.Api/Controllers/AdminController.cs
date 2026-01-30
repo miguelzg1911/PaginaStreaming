@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Streaming.Application.DTOs.Content;
 using Streaming.Application.Interfaces;
@@ -8,6 +9,7 @@ namespace Streaming.Api.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+[Authorize(Roles = "Admin")]
 public class AdminController : ControllerBase
 {
     private readonly IImagesService _imagesService;

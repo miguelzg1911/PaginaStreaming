@@ -28,14 +28,15 @@ public class SubscriptionService : ISubscriptionService
 
     public async Task<bool> IsUserSubscribedAsync(Guid userId)
     {
-        var subscriptions = await _unitOfWork.Subscriptions.FindAsync(s => 
-            s.UserId == userId && s.EndDate > DateTime.UtcNow && s.IsActive);
-        
-        return subscriptions.Any();
+        var activeSub = await _unitOfWork.Subscriptions.GetActiveSubscriptionAsync(userId);
+        return activeSub != null;
     }
 
     public async Task<bool> SubscribeUserAsync(Guid userId, Guid planId)
     {
+        var current = await _unitOfWork.Subscriptions.GetActiveSubscriptionAsync(userId);
+        if (current != null) return false;
+
         var subscription = new Subscription
         {
             Id = Guid.NewGuid(),

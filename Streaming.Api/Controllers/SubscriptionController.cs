@@ -33,4 +33,13 @@ public class SubscriptionController : ControllerBase
         if (!success) return BadRequest(new { message = "No se pudo procesar la suscripción" });
         return Ok(new { message = "Suscripción exitosa" });
     }
+    
+    [Authorize]
+    [HttpGet("my-status")]
+    public async Task<IActionResult> GetMyStatus()
+    {
+        var userId = Guid.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
+        var isSubscribed = await _subscriptionService.IsUserSubscribedAsync(userId);
+        return Ok(new { isSubscribed });
+    }
 }
