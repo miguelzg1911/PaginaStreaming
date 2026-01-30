@@ -79,4 +79,16 @@ public class ContentService : IContentService
             Description = c.Description
         });
     }
+    
+    public async Task<IEnumerable<ContentSummaryDto>> GetByTypeAsync(string type)
+    {
+        var contents = await _unitOfWork.Contents.GetByTypeAsync(type);
+        return contents.Select(c => new ContentSummaryDto
+        {
+            Id = c.Id,
+            Title = c.Title,
+            ThumbnailUrl = c.ThumbnailUrl,
+            Description = c.Description
+        });
+    }
 }

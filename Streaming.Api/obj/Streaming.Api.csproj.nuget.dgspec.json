@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Api\\Streaming.Api.csproj": {}
+    "/home/coders/Imágenes/PaginaStreaming/Streaming.Api/Streaming.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Api\\Streaming.Api.csproj": {
+    "/home/coders/Imágenes/PaginaStreaming/Streaming.Api/Streaming.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Api\\Streaming.Api.csproj",
+        "projectUniqueName": "/home/coders/Imágenes/PaginaStreaming/Streaming.Api/Streaming.Api.csproj",
         "projectName": "Streaming.Api",
-        "projectPath": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Api\\Streaming.Api.csproj",
-        "packagesPath": "C:\\Users\\Daniela o cualquiera\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Api\\obj\\",
+        "projectPath": "/home/coders/Imágenes/PaginaStreaming/Streaming.Api/Streaming.Api.csproj",
+        "packagesPath": "/home/coders/.nuget/packages/",
+        "outputPath": "/home/coders/Imágenes/PaginaStreaming/Streaming.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Daniela o cualquiera\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/coders/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -26,11 +26,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Application\\Streaming.Application.csproj": {
-                "projectPath": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Application\\Streaming.Application.csproj"
+              "/home/coders/Imágenes/PaginaStreaming/Streaming.Application/Streaming.Application.csproj": {
+                "projectPath": "/home/coders/Imágenes/PaginaStreaming/Streaming.Application/Streaming.Application.csproj"
               },
-              "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Infrastructure\\Streaming.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Infrastructure\\Streaming.Infrastructure.csproj"
+              "/home/coders/Imágenes/PaginaStreaming/Streaming.Infrastructure/Streaming.Infrastructure.csproj": {
+                "projectPath": "/home/coders/Imágenes/PaginaStreaming/Streaming.Infrastructure/Streaming.Infrastructure.csproj"
               }
             }
           }
@@ -39,11 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -92,21 +87,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.122/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Application\\Streaming.Application.csproj": {
+    "/home/coders/Imágenes/PaginaStreaming/Streaming.Application/Streaming.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Application\\Streaming.Application.csproj",
+        "projectUniqueName": "/home/coders/Imágenes/PaginaStreaming/Streaming.Application/Streaming.Application.csproj",
         "projectName": "Streaming.Application",
-        "projectPath": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Application\\Streaming.Application.csproj",
-        "packagesPath": "C:\\Users\\Daniela o cualquiera\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Application\\obj\\",
+        "projectPath": "/home/coders/Imágenes/PaginaStreaming/Streaming.Application/Streaming.Application.csproj",
+        "packagesPath": "/home/coders/.nuget/packages/",
+        "outputPath": "/home/coders/Imágenes/PaginaStreaming/Streaming.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Daniela o cualquiera\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/coders/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -118,8 +113,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Domain\\Streaming.Domain.csproj": {
-                "projectPath": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Domain\\Streaming.Domain.csproj"
+              "/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/Streaming.Domain.csproj": {
+                "projectPath": "/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/Streaming.Domain.csproj"
               }
             }
           }
@@ -128,11 +123,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -171,21 +161,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.122/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Domain\\Streaming.Domain.csproj": {
+    "/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/Streaming.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Domain\\Streaming.Domain.csproj",
+        "projectUniqueName": "/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/Streaming.Domain.csproj",
         "projectName": "Streaming.Domain",
-        "projectPath": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Domain\\Streaming.Domain.csproj",
-        "packagesPath": "C:\\Users\\Daniela o cualquiera\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Domain\\obj\\",
+        "projectPath": "/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/Streaming.Domain.csproj",
+        "packagesPath": "/home/coders/.nuget/packages/",
+        "outputPath": "/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Daniela o cualquiera\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/coders/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -203,11 +193,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -229,21 +214,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.122/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Infrastructure\\Streaming.Infrastructure.csproj": {
+    "/home/coders/Imágenes/PaginaStreaming/Streaming.Infrastructure/Streaming.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Infrastructure\\Streaming.Infrastructure.csproj",
+        "projectUniqueName": "/home/coders/Imágenes/PaginaStreaming/Streaming.Infrastructure/Streaming.Infrastructure.csproj",
         "projectName": "Streaming.Infrastructure",
-        "projectPath": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Infrastructure\\Streaming.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Daniela o cualquiera\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Infrastructure\\obj\\",
+        "projectPath": "/home/coders/Imágenes/PaginaStreaming/Streaming.Infrastructure/Streaming.Infrastructure.csproj",
+        "packagesPath": "/home/coders/.nuget/packages/",
+        "outputPath": "/home/coders/Imágenes/PaginaStreaming/Streaming.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Daniela o cualquiera\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/coders/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -255,11 +240,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Application\\Streaming.Application.csproj": {
-                "projectPath": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Application\\Streaming.Application.csproj"
+              "/home/coders/Imágenes/PaginaStreaming/Streaming.Application/Streaming.Application.csproj": {
+                "projectPath": "/home/coders/Imágenes/PaginaStreaming/Streaming.Application/Streaming.Application.csproj"
               },
-              "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Domain\\Streaming.Domain.csproj": {
-                "projectPath": "C:\\Users\\Daniela o cualquiera\\OneDrive\\Documentos\\Miguel\\PaginaStreaming\\Streaming.Domain\\Streaming.Domain.csproj"
+              "/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/Streaming.Domain.csproj": {
+                "projectPath": "/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/Streaming.Domain.csproj"
               }
             }
           }
@@ -268,11 +253,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -317,7 +297,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.122/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

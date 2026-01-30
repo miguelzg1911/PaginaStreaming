@@ -7,7 +7,7 @@ namespace Streaming.Application.Interfaces;
 public interface IUserInteractionService
 {
     // Historial de visualización
-    Task SaveProgressAsync(Guid profileId, Guid contentId, int seconds);
+    Task SaveProgressAsync(Guid profileId, Guid contentId, int seconds, Guid? episodeId = null);
     Task<IEnumerable<WatchHistoryDto>> GetWatchHistoryAsync(Guid profileId);
     
     // Interacciones

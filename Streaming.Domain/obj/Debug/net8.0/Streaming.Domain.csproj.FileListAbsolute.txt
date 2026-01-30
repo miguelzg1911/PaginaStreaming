@@ -1,12 +1,24 @@
-C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Domain\bin\Debug\net8.0\Streaming.Domain.deps.json
-C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Domain\bin\Debug\net8.0\Streaming.Domain.dll
-C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Domain\bin\Debug\net8.0\Streaming.Domain.pdb
-C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Domain\obj\Debug\net8.0\Streaming.Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Domain\obj\Debug\net8.0\Streaming.Domain.AssemblyInfoInputs.cache
-C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Domain\obj\Debug\net8.0\Streaming.Domain.AssemblyInfo.cs
-C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Domain\obj\Debug\net8.0\Streaming.Domain.csproj.CoreCompileInputs.cache
-C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Domain\obj\Debug\net8.0\Streaming.Domain.sourcelink.json
-C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Domain\obj\Debug\net8.0\Streaming.Domain.dll
-C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Domain\obj\Debug\net8.0\refint\Streaming.Domain.dll
-C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Domain\obj\Debug\net8.0\Streaming.Domain.pdb
-C:\Users\Daniela o cualquiera\OneDrive\Documentos\Miguel\PaginaStreaming\Streaming.Domain\obj\Debug\net8.0\ref\Streaming.Domain.dll
+C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/PaginaStreaming/Streaming.Domain/bin/Debug/net8.0/Streaming.Domain.deps.json
+C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/PaginaStreaming/Streaming.Domain/bin/Debug/net8.0/Streaming.Domain.dll
+C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/PaginaStreaming/Streaming.Domain/bin/Debug/net8.0/Streaming.Domain.pdb
+C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/PaginaStreaming/Streaming.Domain/obj/Debug/net8.0/Streaming.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/PaginaStreaming/Streaming.Domain/obj/Debug/net8.0/Streaming.Domain.AssemblyInfoInputs.cache
+C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/PaginaStreaming/Streaming.Domain/obj/Debug/net8.0/Streaming.Domain.AssemblyInfo.cs
+C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/PaginaStreaming/Streaming.Domain/obj/Debug/net8.0/Streaming.Domain.csproj.CoreCompileInputs.cache
+C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/PaginaStreaming/Streaming.Domain/obj/Debug/net8.0/Streaming.Domain.sourcelink.json
+C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/PaginaStreaming/Streaming.Domain/obj/Debug/net8.0/Streaming.Domain.dll
+C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/PaginaStreaming/Streaming.Domain/obj/Debug/net8.0/refint/Streaming.Domain.dll
+C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/PaginaStreaming/Streaming.Domain/obj/Debug/net8.0/Streaming.Domain.pdb
+C:/Users/Daniela o cualquiera/OneDrive/Documentos/Miguel/PaginaStreaming/Streaming.Domain/obj/Debug/net8.0/ref/Streaming.Domain.dll
+/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/bin/Debug/net8.0/Streaming.Domain.deps.json
+/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/bin/Debug/net8.0/Streaming.Domain.dll
+/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/bin/Debug/net8.0/Streaming.Domain.pdb
+/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/obj/Debug/net8.0/Streaming.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/obj/Debug/net8.0/Streaming.Domain.AssemblyInfoInputs.cache
+/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/obj/Debug/net8.0/Streaming.Domain.AssemblyInfo.cs
+/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/obj/Debug/net8.0/Streaming.Domain.csproj.CoreCompileInputs.cache
+/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/obj/Debug/net8.0/Streaming.Domain.sourcelink.json
+/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/obj/Debug/net8.0/Streaming.Domain.dll
+/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/obj/Debug/net8.0/refint/Streaming.Domain.dll
+/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/obj/Debug/net8.0/Streaming.Domain.pdb
+/home/coders/Imágenes/PaginaStreaming/Streaming.Domain/obj/Debug/net8.0/ref/Streaming.Domain.dll

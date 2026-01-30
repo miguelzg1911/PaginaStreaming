@@ -16,9 +16,8 @@ public class UserInteractionService : IUserInteractionService
         _unitOfWork = unitOfWork;
     }
 
-    public async Task SaveProgressAsync(Guid profileId, Guid contentId, int seconds)
+    public async Task SaveProgressAsync(Guid profileId, Guid contentId, int seconds, Guid? episodeId = null)
     {
-        // Buscamos si ya existe un registro de este contenido para este perfil
         var history = await _unitOfWork.WatchHistories.GetLatestForContentAsync(profileId, contentId);
 
         if (history == null)
@@ -28,6 +27,7 @@ public class UserInteractionService : IUserInteractionService
                 Id = Guid.NewGuid(),
                 ProfileId = profileId,
                 ContentId = contentId,
+                EpisodeId = episodeId,
                 WatchedSeconds = seconds,
                 LastWatchedAt = DateTime.UtcNow
             };
@@ -35,11 +35,11 @@ public class UserInteractionService : IUserInteractionService
         }
         else
         {
+            history.EpisodeId = episodeId;
             history.WatchedSeconds = seconds;
             history.LastWatchedAt = DateTime.UtcNow;
             _unitOfWork.WatchHistories.Update(history);
         }
-
         await _unitOfWork.SaveChangesAsync();
     }
 
@@ -58,7 +58,6 @@ public class UserInteractionService : IUserInteractionService
 
     public async Task ToggleMyListAsync(Guid profileId, Guid contentId)
     {
-        // Buscamos si el contenido ya está en la lista de ese perfil
         var existingItem = (await _unitOfWork.MyLists.FindAsync(m => 
             m.ProfileId == profileId && m.ContentId == contentId)).FirstOrDefault();
 
@@ -107,12 +106,13 @@ public class UserInteractionService : IUserInteractionService
     
     public async Task<IEnumerable<MyListDto>> GetMyListAsync(Guid profileId)
     {
-        var items = await _unitOfWork.MyLists.FindAsync(m => m.ProfileId == profileId);
+        // Usamos el nuevo método con Include
+        var items = await _unitOfWork.MyLists.GetByProfileIdWithContentAsync(profileId);
     
         return items.Select(m => new MyListDto {
             ContentId = m.ContentId,
-            ContentTitle = m.Content?.Title ?? "Sin título",
-            ThumbnailUrl = m.Content?.ThumbnailUrl,
+            ContentTitle = m.Content.Title, // Ya no será null
+            ThumbnailUrl = m.Content.ThumbnailUrl,
             AddedAt = m.AddedAt
         });
     }

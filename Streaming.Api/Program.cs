@@ -65,6 +65,7 @@ builder.Services.AddScoped<IContentRepository, ContentRepository>();
 builder.Services.AddScoped<IWatchHistoryRepository, WatchHistoryRepository>();
 builder.Services.AddScoped<ISubscriptionRepository, SubscriptionRepository>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IMyListRepository, MyListRepository>();
 
 
 builder.Services.AddScoped<ITokenService, TokenService>();
@@ -121,11 +122,24 @@ using (var scope = app.Services.CreateScope())
     }
 }
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("StreamingAppPolicy", policy =>
+    {
+        policy.WithOrigins("http://localhost:5173", "http://localhost:3000")
+            .AllowAnyMethod()
+            .AllowAnyHeader()
+            .AllowCredentials();
+    });
+});
+
+app.UseHttpsRedirection();
+
+app.UseCors("StreamingAppPolicy");
 
 app.UseAuthentication(); 
 app.UseAuthorization();
 
-app.UseHttpsRedirection();
 app.MapControllers();
 
 app.Run();

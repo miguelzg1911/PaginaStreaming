@@ -80,10 +80,7 @@
       },
       "Streaming.Domain/1.0.0": {
         "runtime": {
-          "Streaming.Domain.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Streaming.Domain.dll": {}
         }
       }
     }

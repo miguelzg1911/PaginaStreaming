@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Streaming.Application.DTOs.Content;
 using Streaming.Application.Interfaces;
 
 namespace Streaming.Api.Controllers;
@@ -37,5 +38,12 @@ public class ContentController : ControllerBase
     {
         var content = await _contentService.GetByCategoryAsync(genreId);
         return Ok(content);
+    }
+    
+    [HttpGet("filter/{type}")]
+    public async Task<IActionResult> GetByType(string type)
+    {
+        var contents = await _contentService.GetByTypeAsync(type);
+        return Ok(contents);
     }
 }

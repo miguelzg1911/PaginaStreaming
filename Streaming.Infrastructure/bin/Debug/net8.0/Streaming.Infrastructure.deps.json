@@ -975,18 +975,12 @@
           "System.IdentityModel.Tokens.Jwt": "8.0.1"
         },
         "runtime": {
-          "Streaming.Application.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Streaming.Application.dll": {}
         }
       },
       "Streaming.Domain/1.0.0": {
         "runtime": {
-          "Streaming.Domain.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Streaming.Domain.dll": {}
         }
       }
     }
