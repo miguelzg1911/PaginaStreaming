@@ -24,11 +24,11 @@ public class UserInteractionController : ControllerBase
         return Ok();
     }
 
-    [HttpPost("mylist/toggle")]
+    [HttpPost("mylist/toggle/{profileId}/{contentId}")]
     public async Task<IActionResult> ToggleMyList(Guid profileId, Guid contentId)
     {
         await _interactionService.ToggleMyListAsync(profileId, contentId);
-        return Ok();
+        return Ok(new { message = "Lista actualizada" });
     }
 
     [HttpPost("rating")]
@@ -36,5 +36,19 @@ public class UserInteractionController : ControllerBase
     {
         await _interactionService.SetRatingAsync(profileId, request);
         return Ok();
+    }
+    
+    [HttpGet("history/{profileId}")]
+    public async Task<IActionResult> GetHistory(Guid profileId)
+    {
+        var history = await _interactionService.GetWatchHistoryAsync(profileId);
+        return Ok(history);
+    }
+
+    [HttpGet("mylist/{profileId}")]
+    public async Task<IActionResult> GetMyList(Guid profileId)
+    {
+        var list = await _interactionService.GetMyListAsync(profileId);
+        return Ok(list);
     }
 }

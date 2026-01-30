@@ -25,4 +25,11 @@ public class ContentRepository : GenericRepository<Content>, IContentRepository
             .Where(c => c.ContentType.ToString() == type)
             .ToListAsync();
     }
+    
+    public async Task<IEnumerable<Content>> GetByGenreAsync(Guid genreId)
+    {
+        return await _context.Contents
+            .Where(c => c.ContentGenres.Any(cg => cg.GenreId == genreId))
+            .ToListAsync();
+    }
 }

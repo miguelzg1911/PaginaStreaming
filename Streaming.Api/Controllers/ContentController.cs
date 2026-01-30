@@ -31,4 +31,11 @@ public class ContentController : ControllerBase
         if (details == null) return NotFound();
         return Ok(details);
     }
+    
+    [HttpGet("genre/{genreId}")]
+    public async Task<IActionResult> GetByGenre(Guid genreId)
+    {
+        var content = await _contentService.GetByCategoryAsync(genreId);
+        return Ok(content);
+    }
 }

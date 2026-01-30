@@ -21,7 +21,6 @@ public class ProfileController : ControllerBase
     [HttpGet]
     public async Task<IActionResult> GetMyProfiles()
     {
-        // Obtenemos el UserId del Token JWT
         var userId = Guid.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
         var profiles = await _profileService.GetProfilesByUserIdAsync(userId);
         return Ok(profiles);
@@ -33,5 +32,19 @@ public class ProfileController : ControllerBase
         var userId = Guid.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
         var profile = await _profileService.CreateProfileAsync(userId, request);
         return Ok(profile);
+    }
+    
+    [HttpPut("{id}")]
+    public async Task<IActionResult> UpdateProfile(Guid id, [FromBody] UpdateProfileRequest request)
+    {
+        await _profileService.UpdateProfileAsync(id, request);
+        return NoContent();
+    }
+
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteProfile(Guid id)
+    {
+        await _profileService.DeleteProfileAsync(id);
+        return NoContent();
     }
 }

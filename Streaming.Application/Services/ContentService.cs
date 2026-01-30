@@ -67,12 +67,14 @@ public class ContentService : IContentService
 
     public async Task<IEnumerable<ContentSummaryDto>> GetByCategoryAsync(Guid genreId)
     {
-        var contents = await _unitOfWork.Contents.GetByTypeAsync(genreId.ToString());
+        var contents = await _unitOfWork.Contents.GetByGenreAsync(genreId);
+    
         return contents.Select(c => new ContentSummaryDto
         {
             Id = c.Id,
             Title = c.Title,
-            ThumbnailUrl = c.ThumbnailUrl
+            ThumbnailUrl = c.ThumbnailUrl,
+            Description = c.Description
         });
     }
 }

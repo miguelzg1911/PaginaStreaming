@@ -1,3 +1,4 @@
+using Streaming.Application.DTOs.MyList;
 using Streaming.Application.DTOs.Rating;
 using Streaming.Application.DTOs.WatchHistory;
 
@@ -12,4 +13,6 @@ public interface IUserInteractionService
     // Interacciones
     Task ToggleMyListAsync(Guid profileId, Guid contentId);
     Task SetRatingAsync(Guid profileId, RatingRequest request);
+    
+    Task<IEnumerable<MyListDto>> GetMyListAsync(Guid profileId);
 }

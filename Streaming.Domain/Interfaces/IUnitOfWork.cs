@@ -14,6 +14,8 @@ public interface IUnitOfWork : IDisposable
     IGenericRepository<Rating> Ratings { get; }
     IGenericRepository<Episode> Episodes { get; }
     IGenericRepository<Season> Seasons { get; }
+    IGenericRepository<Genre> Genres { get; }
+    IGenericRepository<ContentGenre> ContentGenres { get; }
 
     Task<int> SaveChangesAsync();
 }

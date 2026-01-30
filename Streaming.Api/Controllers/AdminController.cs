@@ -45,4 +45,54 @@ public class AdminController : ControllerBase
         return Ok(new { message = "Contenido subido con exito", contentId = newContent.Id });
     }
     
+    [HttpPost("assign-genres")]
+    public async Task<IActionResult> AssignGenres([FromBody] AssignGenresRequest request)
+    {
+        foreach (var genreId in request.GenreIds)
+        {
+            var contentGenre = new ContentGenre
+            {
+                ContentId = request.ContentId,
+                GenreId = genreId
+            };
+            await _unitOfWork.ContentGenres.AddAsync(contentGenre);
+        }
+        await _unitOfWork.SaveChangesAsync();
+        return Ok(new { message = "Géneros asignados correctamente" });
+    }
+    
+    // --- En AdminController.cs ---
+
+    [HttpPost("create-season")]
+    public async Task<IActionResult> CreateSeason([FromBody] CreateSeasonRequest request)
+    {
+        var season = new Season
+        {
+            Id = Guid.NewGuid(),
+            ContentId = request.ContentId,
+            SeasonNumber = request.SeasonNumber
+        };
+
+        await _unitOfWork.Seasons.AddAsync(season);
+        await _unitOfWork.SaveChangesAsync();
+        return Ok(new { message = "Temporada creada", seasonId = season.Id });
+    }
+
+    [HttpPost("add-episode")]
+    public async Task<IActionResult> AddEpisode([FromBody] CreateEpisodeRequest request)
+    {
+        var episode = new Episode
+        {
+            Id = Guid.NewGuid(),
+            SeasonId = request.SeasonId,
+            Title = request.Title,
+            EpisodeNumber = request.EpisodeNumber,
+            DurationMinutes = request.DurationMinutes,
+            UrlVideo = request.UrlVideo
+        };
+
+        await _unitOfWork.Episodes.AddAsync(episode);
+        await _unitOfWork.SaveChangesAsync();
+        return Ok(new { message = "Episodio añadido con éxito", episodeId = episode.Id });
+    }
 }

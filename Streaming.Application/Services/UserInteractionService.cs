@@ -1,3 +1,4 @@
+using Streaming.Application.DTOs.MyList;
 using Streaming.Application.DTOs.WatchHistory;
 using Streaming.Application.DTOs.Rating;
 using Streaming.Application.Interfaces;
@@ -18,8 +19,7 @@ public class UserInteractionService : IUserInteractionService
     public async Task SaveProgressAsync(Guid profileId, Guid contentId, int seconds)
     {
         // Buscamos si ya existe un registro de este contenido para este perfil
-        var history = (await _unitOfWork.WatchHistories.FindAsync(h => 
-            h.ProfileId == profileId && h.ContentId == contentId)).FirstOrDefault();
+        var history = await _unitOfWork.WatchHistories.GetLatestForContentAsync(profileId, contentId);
 
         if (history == null)
         {
@@ -103,5 +103,17 @@ public class UserInteractionService : IUserInteractionService
         }
 
         await _unitOfWork.SaveChangesAsync();
+    }
+    
+    public async Task<IEnumerable<MyListDto>> GetMyListAsync(Guid profileId)
+    {
+        var items = await _unitOfWork.MyLists.FindAsync(m => m.ProfileId == profileId);
+    
+        return items.Select(m => new MyListDto {
+            ContentId = m.ContentId,
+            ContentTitle = m.Content?.Title ?? "Sin título",
+            ThumbnailUrl = m.Content?.ThumbnailUrl,
+            AddedAt = m.AddedAt
+        });
     }
 }

@@ -18,6 +18,8 @@ public class UnitOfWork : IUnitOfWork
     public IGenericRepository<Rating> Ratings { get; }
     public IGenericRepository<Episode> Episodes { get; }
     public IGenericRepository<Season> Seasons { get; }
+    public IGenericRepository<Genre> Genres { get; }
+    public IGenericRepository<ContentGenre> ContentGenres { get; }
 
     public UnitOfWork(AppDbContext context)
     {
@@ -33,6 +35,8 @@ public class UnitOfWork : IUnitOfWork
         Ratings = new GenericRepository<Rating>(_context);
         Episodes = new GenericRepository<Episode>(_context);
         Seasons = new GenericRepository<Season>(_context);
+        Genres = new GenericRepository<Genre>(_context);
+        ContentGenres = new GenericRepository<ContentGenre>(_context);
     }
 
     public async Task<int> SaveChangesAsync()
